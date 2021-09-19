@@ -1,2 +1,3 @@
 # AddToCart
- Small E-Commercial website based on HTML, CSS, and javaScript 
+
+Small E-Commercial website based on HTML, CSS, and javaScript

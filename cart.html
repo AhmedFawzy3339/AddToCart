@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cart</title>
+<style>
+
+.bbb
+{
+  
+  width: 27%;
+
+
+}
+table, tr, td {
+  border: 1px solid black;
+  background-color: rgba(0, 0, 255, 0.568);
+  color:white;
+
+}
+td{
+  width: fit-content;
+  height: fit-content
+}
+/* .aaa{
+  display:inline-flex;
+}*/
+.aaa img{
+
+  scale: 0.3;
+}
+
+button{
+  width: 20%;
+display: inline;
+justify-content: space-between;
+margin-right: 19%;
+
+} 
+.TP
+{
+  margin-left: 282%;
+    width: 30%;
+}
+
+
+</style>
+
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <ul class="nav-list">
+          <li>
+            <button class="home"><a href="home.html"> Home </a></button>
+          </li>
+          <li>
+            <button class="about"><a href="about.html"> About </a></button>
+          </li>
+          <li>
+            <button class="contact-us">
+              <a href="contactUs.html"> Contact Us </a>
+            </button>
+          </li>
+          <li>
+            <button class="crt"><a href="cart.html"> Cart </a></button>
+          </li>
+        </ul>
+      </div>
+      <div >
+               
+        <table id="cart"  style="width:95%">
+          <tr>
+            <th class="aa">Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="scripts/cart.js"></script>
+  </body>
+</html>

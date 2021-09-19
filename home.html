@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Home</title>
+    <style>
+      body{
+        background-color: rgb(190, 134, 49);
+        
+      }
+    
+    p
+    ,h3{
+
+      color:white;
+    }
+    .nav-list
+    {  width: 50%;
+      margin-left: 23%;
+    }
+    .nav-bar .nav-list
+    {
+background-color: rgb(49, 16, 235);
+justify-content: center;
+
+    }
+#content{
+  
+       display : flex;
+       flex-wrap: wrap;
+       justify-content : space-between;
+}
+.col-4
+{ 
+  background-color:rgb(49, 16, 235);
+  width: 28%;
+border-style: groove;
+position: relative;
+width: auto;
+margin-bottom: 5%;
+
+}
+.col-4 button
+{
+   background-color: white;
+   width: 25%;
+   margin-right: 30%;
+}
+.col-4 input{
+  width: 10%;
+  margin-left: 40%;
+  background-color: white;
+  color: black;
+}
+.nav-list button
+{ background-color:rgb(165, 155, 219); /* Green */
+  border: none;
+  color: rgb(15, 15, 15);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+
+}
+       </style>
+  </head>
+  <body>
+ 
+    <div class="container">
+      <div class="nav-bar">
+        <ul class="nav-list">
+          <li>
+            <button class="home"><a href="home.html"> Home </a></button>
+          </li>
+          <li>
+            <button class="contact-us">
+              <a href="contactUs.html"> Contact Us </a>
+            </button>
+          </li>
+          <li>
+            <button class="about"><a href="about.html"> About </a></button>
+          </li>
+          <li>
+            <button class="crt"><a href="cart.html"> Cart </a></button>
+          </li>
+        </ul>
+      </div>
+      <div id="content">
+
+        
+      </div>
+    </div>
+    <script src="scripts/homeScript.js"></script>
+  </body>
+</html>
